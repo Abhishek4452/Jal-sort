@@ -1339,7 +1339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Box_L13.0mm_W4.0mm_P9.00mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.64 39.878 90)
 			(effects
 				(font
@@ -1408,7 +1408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 37.7952 48.26 0)
 			(effects
 				(font
@@ -1606,76 +1606,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 82.55 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "486e4e35-f445-4805-9d51-3e47cacdeed8")
-		(property "Reference" "C6"
-			(at 86.36 41.0209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33uf"
-			(at 86.36 43.5609 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.5152 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d45b2ed-f76c-49ba-bab9-5f24e21dc722")
-		)
-		(pin "1"
-			(uuid "8b8d46d0-fc30-4f8e-80c2-a6e25d72d752")
-		)
-		(instances
-			(project ""
-				(path "/31b6e1ec-d74d-492a-aa57-e2c47a239427/2a2ebf30-62cd-420d-818c-baa6ab0a0d2f"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Switching:LM2596S-5")
 		(at 144.78 35.56 0)
 		(unit 1)
@@ -1782,7 +1712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Box_L13.0mm_W4.0mm_P9.00mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 172.212 45.72 90)
 			(effects
 				(font
@@ -1819,6 +1749,75 @@
 			(project "rectifier"
 				(path "/31b6e1ec-d74d-492a-aa57-e2c47a239427/2a2ebf30-62cd-420d-818c-baa6ab0a0d2f"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 82.55 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d55035a4-bc63-42ff-9b38-e4e527b2e043")
+		(property "Reference" "C7"
+			(at 75.692 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33uF"
+			(at 87.376 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 83.5152 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aedb1178-a190-4601-b29f-06105188d294")
+		)
+		(pin "1"
+			(uuid "065575a8-729a-4ba8-96b4-a463c35f523a")
+		)
+		(instances
+			(project "rectifier"
+				(path "/31b6e1ec-d74d-492a-aa57-e2c47a239427/2a2ebf30-62cd-420d-818c-baa6ab0a0d2f"
+					(reference "C7")
 					(unit 1)
 				)
 			)

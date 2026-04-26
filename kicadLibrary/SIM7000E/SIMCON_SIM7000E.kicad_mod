@@ -1,5 +1,5 @@
 
-(footprint SIMCON_SIM7000E (layer F.Cu) (tedit 69C92741)
+(footprint SIMCON_SIM7000E (layer F.Cu) (tedit 69EC7934)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at -9.3347 -14.39986 0) (layer F.SilkS)

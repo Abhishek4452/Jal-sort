@@ -190,6 +190,265 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:SIM_Card"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "SIM_Card"
+				(at -1.27 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SIM Card"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SIM card UICC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SIM*Card*Holder*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SIM_Card_0_1"
+				(polyline
+					(pts
+						(xy -10.16 8.89) (xy 15.24 8.89) (xy 15.24 -3.81) (xy 12.7 -6.35) (xy -10.16 -6.35) (xy -10.16 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.54)
+					(end 2.54 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 0)
+					(end 2.54 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.54)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.81 2.54)
+					(end 7.62 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.81 0)
+					(end 7.62 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.81 -1.27)
+					(end 7.62 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SIM_Card_1_1"
+				(pin power_in line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "VPP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "I/O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Buzzer"
 			(pin_names
 				(offset 0.0254)
@@ -2818,522 +3077,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SIM7050-6-0-00-X_REVC:SIM7050-6-0-00-X_REVC"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -7.6248 5.5916 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SIM7050-6-0-00-X_REVC"
-				(at -7.6346 -7.6346 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SIM7050-6-0-00-X_REVC:GCT_SIM7050-6-0-00-X_REVC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Global Connector Technology"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "6 Position Card Connector Micro SIM Surface Mount, Right Angle Gold, Without switch, 2.45mm profile, Push-Pull, 3FF Sim card type"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SIM7050-6-0-00-A/Global+Connector+Technology/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SIM7050-6-0-00-A/Global+Connector+Technology/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "SIM7050-6-0-00-A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "GCT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "SIM7050-6-0-00-X_REVC_0_0"
-				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "RST"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "I/O"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional clock
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VPP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TSM-104-01-TM-SH:TSM-104-01-TM-SH"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -8.12 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TSM-104-01-TM-SH"
-				(at -7.62 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "TSM-104-01-TM-SH:SAMTEC_TSM-104-01-TM-SH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Samtec"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "CONN HEADER SMD R/A 4POS 2.54MM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TSM-104-01-TM-SH/Samtec/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TSM-104-01-TM-SH/Samtec/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "TSM-104-01-TM-SH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Samtec"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TSM-104-01-TM-SH_0_0"
-				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "01"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "01"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "02"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "02"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "03"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "03"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "04"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "04"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:BS170"
 			(pin_names
 				(hide yes)
@@ -4829,6 +4572,236 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ultrasonic:HC-SR04"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.0813 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "HC-SR04"
+				(at 0 -10.163 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "HC-SR04:XCVR_HC-SR04"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "SparkFun Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "HC-SR04 Ultrasonic Sensor Qwiic Platform Evaluation Expansion Board"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/HC-SR04/SparkFun/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/HC-SR04/SparkFun/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "HC-SR04"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Osepp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "HC-SR04_0_0"
+				(rectangle
+					(start 0 -7.62)
+					(end 10.16 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -5.08 2.54 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "TRIG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "ECHO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 15.24 165.1)
@@ -4950,7 +4923,7 @@
 		)
 		(uuid "28c705d2-a37e-4f5f-b467-98859ae79cff")
 	)
-	(text "LOGIC CONVERTOR\nDONE\n"
+	(text "LOGIC CONVERTOR\n"
 		(exclude_from_sim no)
 		(at 218.186 117.094 0)
 		(effects
@@ -5159,7 +5132,7 @@
 		(uuid "d1b038cc-a42a-42b3-89f7-6069370791b4")
 	)
 	(junction
-		(at 147.32 85.09)
+		(at 173.99 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d35a36fe-536b-4386-8716-24f572e76fcb")
@@ -5221,7 +5194,7 @@
 		(uuid "69876f89-4190-40b4-9da3-d0508a59636e")
 	)
 	(no_connect
-		(at 173.99 82.55)
+		(at 175.26 93.98)
 		(uuid "76218f65-8304-48f6-bce6-15af4791ddde")
 	)
 	(no_connect
@@ -5340,6 +5313,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 88.9) (xy 175.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c149fc4-0f61-49ed-9e12-3f3d4d310ca6")
+	)
+	(wire
+		(pts
 			(xy 158.75 166.37) (xy 165.1 166.37)
 		)
 		(stroke
@@ -5367,6 +5350,16 @@
 			(type default)
 		)
 		(uuid "108e9f24-95a7-4078-beea-3efd00200e9a")
+	)
+	(wire
+		(pts
+			(xy 105.41 184.15) (xy 105.41 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15db623f-05ef-487a-8fbb-6ce1c446eadb")
 	)
 	(wire
 		(pts
@@ -5400,7 +5393,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 92.71) (xy 147.32 92.71)
+			(xy 172.72 104.14) (xy 173.99 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5410,7 +5403,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 90.17) (xy 184.15 90.17)
+			(xy 142.24 93.98) (xy 148.59 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5430,7 +5423,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 85.09) (xy 153.67 85.09)
+			(xy 173.99 96.52) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5447,6 +5440,16 @@
 			(type default)
 		)
 		(uuid "2678da94-da05-4af6-86c7-f476fe89bfe6")
+	)
+	(wire
+		(pts
+			(xy 156.21 93.98) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1c4355-f5dc-4da6-8724-e5cda842d057")
 	)
 	(wire
 		(pts
@@ -5477,16 +5480,6 @@
 			(type default)
 		)
 		(uuid "38198635-6fd4-4ad9-ba83-f8da3ab93ba6")
-	)
-	(wire
-		(pts
-			(xy 173.99 90.17) (xy 176.53 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "394f437d-d77e-433b-a05b-4d843bc545eb")
 	)
 	(wire
 		(pts
@@ -5530,6 +5523,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 179.07) (xy 104.14 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4394484f-0173-4147-8d2e-f336d5334df3")
+	)
+	(wire
+		(pts
 			(xy 172.72 137.16) (xy 179.07 137.16)
 		)
 		(stroke
@@ -5550,7 +5553,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 85.09) (xy 184.15 85.09)
+			(xy 142.24 78.74) (xy 148.59 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5600,6 +5603,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 93.98) (xy 157.48 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57064595-7039-4eca-967f-b7e3570c8b1a")
+	)
+	(wire
+		(pts
 			(xy 158.75 170.18) (xy 165.1 170.18)
 		)
 		(stroke
@@ -5607,6 +5620,16 @@
 			(type default)
 		)
 		(uuid "5a61adc6-80f9-4962-9d15-f4a764512d39")
+	)
+	(wire
+		(pts
+			(xy 105.41 184.15) (xy 106.68 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7e8b83-78d5-4ef1-8567-d9337523d160")
 	)
 	(wire
 		(pts
@@ -5630,7 +5653,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 82.55) (xy 146.05 82.55)
+			(xy 142.24 86.36) (xy 148.59 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5670,7 +5693,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 177.8) (xy 106.68 177.8)
+			(xy 104.14 177.8) (xy 86.36 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5770,7 +5793,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 182.88) (xy 106.68 182.88)
+			(xy 105.41 182.88) (xy 85.09 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5900,16 +5923,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 90.17) (xy 173.99 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b26aa887-739d-4f73-9f41-643b801ea27a")
-	)
-	(wire
-		(pts
 			(xy 106.68 99.06) (xy 106.68 97.79)
 		)
 		(stroke
@@ -5920,7 +5933,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 85.09) (xy 147.32 85.09)
+			(xy 170.18 96.52) (xy 173.99 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5960,6 +5973,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 86.36) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c608a205-3266-4125-868e-c565df65ab5f")
+	)
+	(wire
+		(pts
 			(xy 144.78 38.1) (xy 170.18 38.1)
 		)
 		(stroke
@@ -5970,13 +5993,23 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 85.09) (xy 173.99 85.09)
+			(xy 156.21 78.74) (xy 175.26 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9600a44-8403-4e22-8a77-e5ce6a4fd238")
+		(uuid "c6ef421a-c39a-49ce-91ce-bbf4c934c2c2")
+	)
+	(wire
+		(pts
+			(xy 104.14 179.07) (xy 106.68 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8935506-4dd6-407e-a729-e4c591c2a180")
 	)
 	(wire
 		(pts
@@ -6050,6 +6083,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 78.74) (xy 175.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e151d19c-445c-4ec5-8f7a-70ef90b89906")
+	)
+	(wire
+		(pts
 			(xy 58.42 182.88) (xy 63.5 182.88)
 		)
 		(stroke
@@ -6067,16 +6110,6 @@
 			(type default)
 		)
 		(uuid "e8a7d25c-5b44-40af-8d8b-e6432504ae41")
-	)
-	(wire
-		(pts
-			(xy 153.67 87.63) (xy 153.67 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb36dccb-ffa0-4781-bfde-eddbacbe819f")
 	)
 	(wire
 		(pts
@@ -6194,7 +6227,7 @@
 	)
 	(hierarchical_label "SIM Card RST"
 		(shape bidirectional)
-		(at 143.51 82.55 180)
+		(at 142.24 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6372,7 +6405,7 @@
 	)
 	(hierarchical_label "SIM_DATA "
 		(shape bidirectional)
-		(at 143.51 85.09 180)
+		(at 170.18 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6482,12 +6515,12 @@
 	)
 	(hierarchical_label "SIM Card CLK"
 		(shape bidirectional)
-		(at 186.69 90.17 0)
+		(at 142.24 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "89597898-a7d6-4ba8-a7b0-11b8a7bc6e31")
 	)
@@ -6515,7 +6548,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape output)
-		(at 146.05 92.71 180)
+		(at 172.72 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6640,12 +6673,12 @@
 	)
 	(hierarchical_label "GND"
 		(shape output)
-		(at 153.67 96.52 0)
+		(at 175.26 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d396754f-3240-4582-979f-18cc3bf0cc41")
 	)
@@ -6673,12 +6706,12 @@
 	)
 	(hierarchical_label "SIM_VDD"
 		(shape bidirectional)
-		(at 190.5 85.09 0)
+		(at 142.24 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "daf34a36-43ef-41be-9714-61ce1d5b40a1")
 	)
@@ -7029,177 +7062,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SIM7050-6-0-00-X_REVC:SIM7050-6-0-00-X_REVC")
-		(at 163.83 85.09 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b380ff4-9f89-4fe5-b8b9-8726efc5080e")
-		(property "Reference" "J1"
-			(at 163.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SIM7050-6-0-00-X_REVC"
-			(at 163.83 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SIM7050-6-0-00-X_REVC:GCT_SIM7050-6-0-00-X_REVC"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Global Connector Technology"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "6 Position Card Connector Micro SIM Surface Mount, Right Angle Gold, Without switch, 2.45mm profile, Push-Pull, 3FF Sim card type"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SIM7050-6-0-00-A/Global+Connector+Technology/view-part/?ref=eda"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SIM7050-6-0-00-A/Global+Connector+Technology/view-part/?ref=snap"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SIM7050-6-0-00-A"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "GCT"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C6"
-			(uuid "bc6e21a7-8105-4471-80c3-cb78516137e1")
-		)
-		(pin "C2"
-			(uuid "d3726095-abde-4e4d-bd03-9d26f97237ee")
-		)
-		(pin "C1"
-			(uuid "2c04d0d3-43d4-4778-a6ed-6bc9574bcf60")
-		)
-		(pin "C5"
-			(uuid "dfe4e620-4e84-4013-b0cc-9397081efc4f")
-		)
-		(pin "C7"
-			(uuid "45985b45-336f-4030-8614-6b1e78cea7dd")
-		)
-		(pin "C3"
-			(uuid "8ee6fd25-de34-4a10-a661-9276f1113786")
-		)
-		(instances
-			(project ""
-				(path "/31b6e1ec-d74d-492a-aa57-e2c47a239427"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "U.FL-R-SMT_01_:U.FL-R-SMT_01_")
 		(at 256.54 45.72 0)
 		(unit 1)
@@ -7394,8 +7256,175 @@
 		)
 	)
 	(symbol
+		(lib_id "ultrasonic:HC-SR04")
+		(at 175.26 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2647009d-3201-4cdf-aa8d-da21a93a2462")
+		(property "Reference" "U4"
+			(at 186.69 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-SR04"
+			(at 186.69 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HC-SR04:XCVR_HC-SR04"
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "SparkFun Electronics"
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "HC-SR04 Ultrasonic Sensor Qwiic Platform Evaluation Expansion Board"
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/HC-SR04/SparkFun/view-part/?ref=eda"
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/HC-SR04/SparkFun/view-part/?ref=snap"
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "HC-SR04"
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Osepp"
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca97557e-120a-44e7-9031-2f055821e084")
+		)
+		(pin "4"
+			(uuid "c4413716-71e6-48f3-b3b3-f3c8c03b97e6")
+		)
+		(pin "3"
+			(uuid "b0bc761b-0351-46b7-9df1-94c9436a2cd3")
+		)
+		(pin "2"
+			(uuid "c39c93ed-8dba-427c-9e6f-c058d8e1ef8b")
+		)
+		(instances
+			(project ""
+				(path "/31b6e1ec-d74d-492a-aa57-e2c47a239427"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 149.86 82.55 270)
+		(at 152.4 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7403,7 +7432,7 @@
 		(dnp no)
 		(uuid "2755741c-e1eb-49cd-ad60-419f9ba08ebe")
 		(property "Reference" "R7"
-			(at 149.606 82.55 90)
+			(at 152.146 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7411,7 +7440,7 @@
 			)
 		)
 		(property "Value" "22 ohm"
-			(at 149.606 80.264 90)
+			(at 152.146 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,7 +7448,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 149.86 80.772 90)
+			(at 152.4 84.582 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +7457,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 82.55 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +7466,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 149.86 82.55 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7555,7 +7584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 36.322 52.07 90)
 			(effects
 				(font
@@ -7665,7 +7694,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 109.22 180.34 0)
+		(at 109.22 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7674,7 +7703,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f0b0294-b1e6-443a-979d-46f493524a8e")
 		(property "Reference" "BZ1"
-			(at 113.03 179.0699 0)
+			(at 113.03 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +7712,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 113.03 181.6099 0)
+			(at 113.03 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,7 +7721,7 @@
 			)
 		)
 		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
-			(at 108.585 177.8 90)
+			(at 108.585 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,7 +7730,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 108.585 177.8 90)
+			(at 108.585 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7710,7 +7739,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 109.22 180.34 0)
+			(at 109.22 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,7 +7831,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 180.34 90.17 90)
+		(at 152.4 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7810,7 +7839,7 @@
 		(dnp no)
 		(uuid "46d99c89-57b9-4a13-a855-1d0fe9359ced")
 		(property "Reference" "R6"
-			(at 180.594 90.17 90)
+			(at 152.146 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,7 +7847,7 @@
 			)
 		)
 		(property "Value" "22 ohm"
-			(at 180.594 92.456 90)
+			(at 152.146 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,7 +7855,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 180.34 91.948 90)
+			(at 152.4 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,7 +7864,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 90.17 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,7 +7873,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 180.34 90.17 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +8099,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 180.34 85.09 90)
+		(at 152.4 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8078,7 +8107,7 @@
 		(dnp no)
 		(uuid "6d648f52-0714-48ef-9e91-6c46e802d00e")
 		(property "Reference" "R9"
-			(at 180.594 85.09 90)
+			(at 152.146 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8086,7 +8115,7 @@
 			)
 		)
 		(property "Value" "22 ohm"
-			(at 180.594 87.376 90)
+			(at 152.146 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,7 +8123,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 180.34 86.868 90)
+			(at 152.4 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8103,7 +8132,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 85.09 0)
+			(at 152.4 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +8141,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 180.34 85.09 0)
+			(at 152.4 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,7 +8191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J_HandSolder"
 			(at 116.5352 106.68 0)
 			(effects
 				(font
@@ -8804,6 +8833,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:SIM_Card")
+		(at 187.96 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3c3287f-9bb5-459d-8c6d-9e2ddf256d8c")
+		(property "Reference" "J1"
+			(at 204.47 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SIM_Card"
+			(at 204.47 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JAE:JAE_SIM_Card_SF72S006"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SIM Card"
+			(at 187.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f4842f77-80a4-4f5d-be2b-c7e7290dbaf0")
+		)
+		(pin "6"
+			(uuid "fb8ce564-1b89-40d9-af67-f9e69be784be")
+		)
+		(pin "1"
+			(uuid "092dab91-5cca-4d2a-8fd4-0847d7605519")
+		)
+		(pin "7"
+			(uuid "283f3a33-afd0-4b2c-9cd0-9249a1de61b5")
+		)
+		(pin "3"
+			(uuid "044b57ad-4481-49fe-acd5-28cadf68e452")
+		)
+		(pin "2"
+			(uuid "c0aa5e9a-64cf-4de3-8e8b-b59cae56d8e0")
+		)
+		(instances
+			(project ""
+				(path "/31b6e1ec-d74d-492a-aa57-e2c47a239427"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 54.61 182.88 180)
 		(unit 1)
@@ -9217,7 +9328,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 147.32 88.9 0)
+		(at 173.99 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9225,7 +9336,7 @@
 		(dnp no)
 		(uuid "c6515d2e-3f98-4438-a769-39ddd20cb5a0")
 		(property "Reference" "C10"
-			(at 149.352 91.186 0)
+			(at 179.07 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9233,7 +9344,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 142.494 89.154 0)
+			(at 177.292 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9241,7 +9352,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 148.2852 92.71 0)
+			(at 174.9552 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9250,7 +9361,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 88.9 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9259,7 +9370,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 147.32 88.9 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9416,193 +9527,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TSM-104-01-TM-SH:TSM-104-01-TM-SH")
-		(at 182.88 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd10e737-caf4-48b1-9c20-eb72b2973fd1")
-		(property "Reference" "J2"
-			(at 191.77 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TSM-104-01-TM-SH"
-			(at 191.77 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TSM-104-01-TM-SH:SAMTEC_TSM-104-01-TM-SH"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samtec"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "CONN HEADER SMD R/A 4POS 2.54MM"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TSM-104-01-TM-SH/Samtec/view-part/?ref=eda"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "R"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TSM-104-01-TM-SH/Samtec/view-part/?ref=snap"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TSM-104-01-TM-SH"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Samtec"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "04"
-			(uuid "6985a03f-67af-41dd-a86c-bf13a7946139")
-		)
-		(pin "03"
-			(uuid "9626c58e-5971-451b-aec5-a06c6bdf5cb9")
-		)
-		(pin "02"
-			(uuid "7b6d5c58-5ceb-43e8-ac3e-cd0e63372d3d")
-		)
-		(pin "01"
-			(uuid "d68f915b-42dc-4744-9306-7334e14c53ec")
-		)
-		(instances
-			(project ""
-				(path "/31b6e1ec-d74d-492a-aa57-e2c47a239427"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 238.76 86.36 0)
 		(unit 1)
@@ -9629,7 +9553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 239.7252 90.17 0)
 			(effects
 				(font

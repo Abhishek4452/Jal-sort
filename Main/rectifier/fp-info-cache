@@ -1,4 +1,4 @@
-25608270549899310
+25624259229103738
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57140,6 +57140,13 @@ ceramic
 0
 3
 3
+DM-OLED096-636
+MODULE_DM-OLED096-636
+
+
+0
+8
+8
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -60213,6 +60220,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+HC-SR04 (1)
+XCVR_HC-SR04
+
+
+0
+4
+4
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -67864,6 +67878,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM3940IMP-3.3
+SOT230P700X180-4N
+
+
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -90187,6 +90208,13 @@ Potentiometer vertical vishay
 0
 3
 3
+Push_BUTT-2
+SW_BUTT-2
+
+
+0
+2
+2
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -93743,6 +93771,27 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SF72S006VBDR2500
+JAE_SF72S006VBDR2500
+
+
+0
+18
+18
+SIM7000E
+SIMCON_SIM7000E
+
+
+0
+68
+68
+SIM7050-6-0-00-X_REVC
+GCT_SIM7050-6-0-00-X_REVC
+
+
+0
+10
+10
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -95836,6 +95885,13 @@ Logo WEEE
 0
 0
 0
+TSM-104-01-TM-SH
+SAMTEC_TSM-104-01-TM-SH
+
+
+0
+4
+4
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -101856,6 +101912,13 @@ igbt diode module
 0
 25
 25
+U.FL-R-SMT_01_
+HRS_U.FL-R-SMT_01_
+
+
+0
+3
+3
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
